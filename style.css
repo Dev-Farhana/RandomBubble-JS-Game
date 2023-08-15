@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+   width: 100%; 
+   height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: coral;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    color: aliceblue;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(173, 75, 5);  
+    gap: 80px;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4vw;
+}
+.box{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: bisque;
+    color: brown;
+    font-size: 2vw;
+    font-weight: bold;
+} 
+#pbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw; font-weight: bold;
+    color:  rgb(138, 60, 4);
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px ;
+    height: 50px;
+    background-color: burlywood;
+    color: rgb(213, 21, 21);
+    border-radius: 30%;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.bubble:hover{
+    background-color: rgb(241, 104, 6);
+    cursor: pointer;
+}
